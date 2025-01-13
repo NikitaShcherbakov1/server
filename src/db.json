@@ -1,0 +1,19 @@
+{
+  "todos": [
+    {
+      "id": "5e9e",
+      "title": "Новое дело",
+      "completed": true
+    },
+    {
+      "id": "a792",
+      "title": "Новое дело 2",
+      "completed": false
+    },
+    {
+      "id": "9993",
+      "title": "АААААА",
+      "completed": false
+    }
+  ]
+}
