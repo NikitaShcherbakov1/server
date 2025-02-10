@@ -5,7 +5,7 @@
   "dependencies": {
     "cra-template": "1.2.0",
     "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-prettier": "^5.2.3",
     "firebase": "^11.1.0",
     "prettier": "^3.4.2",
     "react": "^19.0.0",
@@ -26,7 +26,10 @@
     ],
     "plugins": [
       "prettier"
-    ]
+    ],
+	"rules": {
+		"react-hooks/exhaustive-deps": "off"
+	}
   },
   "browserslist": {
     "production": [

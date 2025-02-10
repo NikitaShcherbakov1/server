@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { App, initialState } from './app';
+import { StateManager } from './state-manager';
 import './index.css';
-import { App } from './app';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-	<React.StrictMode>
+	<StateManager initialState={initialState}>
 		<App />
-	</React.StrictMode>,
+	</StateManager>,
 );
